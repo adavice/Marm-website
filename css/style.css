@@ -465,6 +465,10 @@ header {
   }
 }
 
+#journey-section .card{
+  height: 100%;
+}
+
 #contact-section i.fas {
   font-size: 16px;
   color: #807054;
