@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="fixed-top light-version">
+      <div class="container-xxl">
+        <div
+          class="header-content d-flex align-items-center justify-content-between position-relative px-3"
+        >
+          <div class="header-logo z-3">
+            <img class="logo-image" src="img/logo-dark.png" />
+          </div>
+
+          <button
+            class="mobile-menu-btn d-lg-none z-3"
+            type="button"
+            aria-label="Toggle navigation"
+          >
+            <span class="hamburger-icon"></span>
+          </button>
+
+          <nav class="main-nav z-2">
+            <div class="nav-wrapper">
+              <ul class="web-menu list-unstyled mb-0">
+                <li class="nav-item">
+                  <div class="custom-dropdown">
+                    <button
+                      class="nav-link btn d-flex align-items-center gap-2"
+                    >
+                      <span>Products</span>
+                      <i
+                        class="fas fa-chevron-down transition-rotate arrow"
+                      ></i>
+                    </button>
+                    <div class="dropdown-menu" id="first-dropdown">
+                      <a class="dropdown-item" href="#">Product 1</a>
+                      <a class="dropdown-item" href="#">Product 2</a>
+                      <a class="dropdown-item" href="#">Product 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link btn d-flex align-items-center">
+                    <span>Pricing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <div class="custom-dropdown">
+                    <button
+                      class="nav-link btn d-flex align-items-center gap-2"
+                    >
+                      <span>Resources</span>
+                      <i
+                        class="fas fa-chevron-down transition-rotate arrow"
+                      ></i>
+                    </button>
+                    <div class="dropdown-menu" id="second-dropdown">
+                      <a class="dropdown-item" href="#">Resource 1</a>
+                      <a class="dropdown-item" href="#">Resource 2</a>
+                      <a class="dropdown-item" href="#">Resource 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-white px-4 d-block d-sm-none">
+                    Request a Demo
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="cta-button z-3 d-none d-lg-flex">
+            <button class="btn btn-white px-4">Request a Demo</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="section bg-light"
+      data-aos="fade-up"
+      data-aos-duration="700"
+    >
+      <div class="container-xxl py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 for-text-center">
+            <h2 class="mb-3">Request a Demo</h2>
+            <p class="mb-4">
+              See our AI fraud detection in action! Request a personalized demo
+              and discover how our cutting-edge technology can safeguard your
+              business. Our team will guide you through the features, show
+              real-time fraud prevention, and answer any questions. Schedule
+              your demo today!
+            </p>
+            <button class="btn btn-color">Request a Demo</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/text-img.jpg"
+              class="img-fluid rounded-img p-4"
+              alt="Text Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="d-flex flex-column gap-4">
+              <div
+                class="text-center mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                style="max-width: 696px"
+              >
+                <h2 class="mb-3">Explore Features</h2>
+                <p>
+                  Discover the advanced features that make our AI fraud
+                  detection system a game-changer:
+                </p>
+              </div>
+
+              <div class="row g-4" data-aos="fade-up" data-aos-duration="700">
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-shield-alt icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Real-Time Protection</p>
+                      <p>
+                        Detect and stop fraud instantly with live AI analysis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-robot icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Self-Learning AI</p>
+                      <p>
+                        Our machine learning models improve with every
+                        transaction.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-brain icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Behavior-Based Detection</p>
+                      <p>
+                        Analyze patterns to catch fraudsters before they strike.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row justify-content-center g-4 mt-2"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-clipboard-check icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Automated Risk Scoring</p>
+                      <p>Get instant assessments of suspicious activity.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-bell icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Customizable Alerts</p>
+                      <p>
+                        Set up fraud alerts tailored to your business needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <p class="mb-3">
+                  Sign up to explore how each feature can be customized for your
+                  business!
+                </p>
+              </div>
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center mt-4"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color btn-large px-4">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-aos="fade-up" data-aos-duration="700">
+      <div class="container-xxl py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="img/text-img.jpg"
+              class="img-fluid rounded-img p-4"
+              alt="Text Image"
+            />
+          </div>
+          <div class="col-md-6 for-text-center">
+            <h2 class="mb-3">Learn More</h2>
+            <p class="mb-2">
+              Want to understand how our AI-driven fraud prevention works?
+              Here’s a deeper dive:
+            </p>
+            <ul class="hero-list mb-4 text-start">
+              <li>
+                <b>Step 1: Data Collection</b> – Our system continuously gathers
+                transaction and user data.
+              </li>
+              <li>
+                <b>Step 2: Smart Detection</b> – Machine learning models flag
+                high-risk behavior.
+              </li>
+              <li>
+                <b>Step 3: Instant Action</b> – Automated alerts and proactive
+                prevention measures stop fraud in real time.
+              </li>
+            </ul>
+            <button class="btn btn-color">Request a Demo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="d-flex flex-column gap-4">
+              <div
+                class="text-center mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                style="max-width: 696px"
+              >
+                <h2 class="mb-3">See How We Can Help Your Industry</h2>
+                <p>
+                  Fraud threats vary by industry, and so do our solutions.
+                  Here’s how we tailor protection:
+                </p>
+              </div>
+
+              <div class="row g-4" data-aos="fade-up" data-aos-duration="700">
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-piggy-bank icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">FinTech & Banking</p>
+                      <p>
+                        Prevent account takeovers and ensure regulatory
+                        compliance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-shopping-cart icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">E-Commerce</p>
+                      <p>Reduce chargebacks and protect online payments.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-shield-alt icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Insurance</p>
+                      <p>
+                        Identify fraudulent claims before they impact your
+                        bottom line.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row justify-content-center g-4 mt-2"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-hand-holding-heart icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Healthcare</p>
+                      <p>
+                        Secure sensitive patient data and prevent medical fraud.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-phone icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Telecom</p>
+                      <p>Stop SIM-swapping and unauthorized account access.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <p class="mb-3">
+                  Find out how our AI solution can be customized for your
+                  industry.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center mt-4"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color btn-large px-4">
+                  Request a Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="d-flex flex-column gap-4">
+              <div
+                class="text-center"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <h2 class="mb-3">Read More Success Stories</h2>
+                <p>
+                  Real businesses, real fraud prevention. Check out how we’ve
+                  helped companies like yours:
+                </p>
+              </div>
+
+              <div
+                class="row row-cols-1 row-cols-md-3 g-4 mb-3"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="col">
+                  <div class="card card-grey border-0">
+                    <div class="card-body">
+                      <div
+                        class="pb-0 h-100 d-flex flex-column justify-content-between"
+                      >
+                        <div class="p-4">
+                          <h5>E-Commerce Giant Slashes Fraud by 70%</h5>
+                          <p class="mb-2">
+                            Predictive analytics helped a retailer reduce
+                            chargebacks and fraudulent transactions.
+                          </p>
+                        </div>
+                        <img src="img/text-img.jpg" title="Test Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-grey border-0">
+                    <div class="card-body">
+                      <div
+                        class="pb-0 h-100 d-flex flex-column justify-content-between"
+                      >
+                        <div class="p-4">
+                          <h5>FinTech Startup Saves Millions</h5>
+                          <p class="mb-2">
+                            AI-driven detection cut fraud losses dramatically.
+                          </p>
+                        </div>
+                        <img src="img/text-img.jpg" title="Test Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-grey border-0">
+                    <div class="card-body">
+                      <div
+                        class="pb-0 h-100 d-flex flex-column justify-content-between"
+                      >
+                        <div class="p-4">
+                          <h5>Insurance Firm Stops False Claims</h5>
+
+                          <p class="mb-2">
+                            Machine learning identified and prevented fraudulent
+                            insurance claims.
+                          </p>
+                        </div>
+                        <img src="img/text-img.jpg" title="Test Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="text-center"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <p class="mb-3">
+                  See more success stories from satisfied clients.
+                </p>
+              </div>
+
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center mt-4"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color btn-large px-4">
+                  Request a Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="d-flex flex-column">
+          <div class="text-center mb-4">
+            <div class="mx-auto">
+              <h2 class="mb-3" data-aos="fade-up" data-aos-duration="700">
+                Meet Our Team
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="700">
+                We’re a team of AI experts and security professionals passionate
+                about fraud prevention. Meet the innovators behind our
+                technology and learn how we’re shaping the future of fraud
+                detection.
+              </p>
+              <div
+                class="d-flex flex-wrap justify-content-center gap-3 mb-4 mt-4"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color btn-lg px-4">
+                  Meet Our Team
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section py-5 bg-light work-section">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="d-flex flex-column gap-4">
+              <div
+                class="text-center aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <h2 class="mb-3">Pricing</h2>
+                <p>
+                  Flexible pricing tailored to your business needs. Choose from:
+                </p>
+              </div>
+
+              <div
+                class="row row-cols-1 row-cols-md-3 g-4 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="col">
+                  <div
+                    class="card border-0"
+                    style="border-color: var(--border-color) !important"
+                  >
+                    <div class="card-body">
+                      <div class="border-bottom pb-4">
+                        <h4>Startup Plan</h4>
+                        <p class="mb-0">
+                          Affordable fraud detection for growing businesses.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div
+                    class="card border-0"
+                    style="border-color: var(--main-header) !important"
+                  >
+                    <div class="card-body">
+                      <div class="border-bottom pb-4">
+                        <h4>Enterprise Plan</h4>
+                        <p class="mb-0">
+                          Scalable solutions with custom AI models.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div
+                    class="card border-0"
+                    style="border-color: var(--blue-link) !important"
+                  >
+                    <div class="card-body">
+                      <div class="border-bottom pb-4">
+                        <h4>Custom Solutions</h4>
+                        <p class="mb-0">
+                          Get a personalized plan that fits your requirements.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="text-center aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <p class="mb-3">
+                  Contact us for a detailed quote based on your company’s fraud
+                  prevention needs.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color px-4">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-aos="fade-up" data-aos-duration="700">
+      <div class="container-xxl py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="mb-3">Resources</h2>
+            <p class="mb-2">
+              Stay informed with our latest fraud prevention insights:
+            </p>
+            <ul class="hero-list mb-2">
+              <li>
+                <b>Blog</b> – Read expert articles on emerging fraud threats and
+                AI advancements.
+              </li>
+              <li>
+                <b>Webinars</b> – Join live sessions with our fraud prevention
+                specialists.
+              </li>
+              <li>
+                <b>Whitepapers</b> – Access in-depth reports on AI-driven fraud
+                detection.
+              </li>
+              <li>
+                <b>Case Studies</b> – Learn from businesses that have
+                successfully implemented our solutions.
+              </li>
+            </ul>
+            <p class="mb-4">
+              Browse our resource library to stay ahead of fraud trends.
+            </p>
+            <button class="btn btn-color">Request a Demo</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/text-img.jpg"
+              class="img-fluid rounded-img p-4"
+              alt="Text Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container-xxl p-4 p-sm-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="d-flex flex-column gap-4">
+              <div
+                class="text-center mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                style="max-width: 696px"
+              >
+                <h2 class="mb-3">Products</h2>
+                <p>
+                  Our AI-driven fraud prevention products are designed to keep
+                  your business safe:
+                </p>
+              </div>
+
+              <div class="row g-4" data-aos="fade-up" data-aos-duration="700">
+                <div class="col-12 col-sm-6 col-md-6">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-code-branch icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Fraud Detection API</p>
+                      <p>Seamless integration into your platform</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-chart-line icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Risk Scoring Engine</p>
+                      <p>Real-time fraud risk assessment</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row justify-content-center g-4 mt-2"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="col-12 col-sm-6 col-md-6">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-bell icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Customizable Alerts System</p>
+                      <p>Set up fraud alerts based on your business needs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                  <div class="d-flex flex-column gap-3 ps-4 border-start">
+                    <i class="fas fa-building icon-color"></i>
+                    <div>
+                      <p class="fw-medium mb-1">Enterprise AI Solution</p>
+                      <p>End-to-end fraud prevention for large organizations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <p class="mb-3">
+                  Discover the right product for your business needs today!
+                </p>
+              </div>
+              <div
+                class="d-flex flex-wrap gap-2 justify-content-center mt-4"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <button href="#" class="btn btn-color btn-large px-4">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white">
+      <div class="container py-5">
+        <section class="row border-bottom pt-2 pb-4">
+          <div class="col-12 col-md-4 footer-dropdown">
+            <h5 class="text-muted d-none d-md-block">Get started</h5>
+            <div class="d-md-none">
+              <button
+                class="btn w-100 text-muted d-flex justify-content-between align-items-center"
+              >
+                <h5 class="text-muted">Get started</h5>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <ul class="d-none d-md-flex flex-column gap-3">
+              <li><a href="#" class="text-muted">Sign in</a></li>
+              <li><a href="#" class="text-muted">Contact sales</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 footer-dropdown">
+            <h5 class="text-muted d-none d-md-block">Quick links</h5>
+            <div class="d-md-none">
+              <button
+                class="btn w-100 text-muted d-flex justify-content-between align-items-center"
+              >
+                <h5 class="text-muted">Quick links</h5>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <ul class="d-none d-md-flex flex-column gap-3">
+              <li><a href="#" class="text-muted">Products</a></li>
+              <li><a href="#" class="text-muted">Pricing</a></li>
+              <li><a href="#" class="text-muted">Resources</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 footer-dropdown">
+            <h5 class="text-muted d-none d-md-block">Explore</h5>
+            <div class="d-md-none">
+              <button
+                class="btn w-100 text-muted d-flex justify-content-between align-items-center"
+              >
+                <h5 class="text-muted">Explore</h5>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+            <ul class="d-none d-md-flex flex-column gap-3">
+              <li><a href="#" class="text-muted">FAQ</a></li>
+              <li><a href="#" class="text-muted">About Us</a></li>
+              <li><a href="#" class="text-muted">Career</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="d-flex justify-content-center align-items-center border-bottom pt-3 pb-3 mb-3"
+        >
+          <div class="d-flex gap-3">
+            <a href="#" class="text-muted">Terms and Conditions</a>
+            <a href="#" class="text-muted">Privacy Policy</a>
+          </div>
+        </section>
+
+        <div class="d-md-block text-muted">
+          <div class="pt-3">
+            <span class="font-weight-bold d-md-none">Disclaimer:</span>
+            <p>
+              The information provided on this website is for informational and
+              discussion purposes only. It is not intended to constitute a
+              recommendation for any service, product, or solution. Any
+              partnerships or services mentioned will be subject to formal
+              agreements and contracts, which will include full details
+              regarding terms, risks, fees, and expenses. All decisions
+              regarding fraud prevention solutions will be made based on
+              detailed service offerings and terms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
