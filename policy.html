@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <title>Privacy Policy</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -16,13 +17,13 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="fixed-top light-version">
+    <header class="fixed-top bg-dark-custom">
       <div class="container-xxl">
         <div
           class="header-content d-flex align-items-center justify-content-between position-relative px-3"
         >
           <div class="header-logo z-3">
-            <img class="logo-image" src="img/logo-dark.png" />
+            <a href="index.html"><img class="logo-image" src="img/logo_light.png" /></a>  
           </div>
 
           <button
@@ -47,14 +48,12 @@
                       ></i>
                     </button>
                     <div class="dropdown-menu" id="first-dropdown">
-                      <a class="dropdown-item" href="#">Product 1</a>
-                      <a class="dropdown-item" href="#">Product 2</a>
-                      <a class="dropdown-item" href="#">Product 3</a>
+                      <a class="dropdown-item" href="products.html">Our Products</a>
                     </div>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link btn d-flex align-items-center">
+                  <a href="pricing.html" class="nav-link btn d-flex align-items-center">
                     <span>Pricing</span>
                   </a>
                 </li>
@@ -69,30 +68,28 @@
                       ></i>
                     </button>
                     <div class="dropdown-menu" id="second-dropdown">
-                      <a class="dropdown-item" href="#">Resource 1</a>
-                      <a class="dropdown-item" href="#">Resource 2</a>
-                      <a class="dropdown-item" href="#">Resource 3</a>
+                      <a class="dropdown-item" href="resources.html">Our Resources</a>
                     </div>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <button class="btn btn-white px-4 d-block d-sm-none">
+                  <a href="demo.html" class="btn btn-white px-4 d-lg-none d-sm-block">
                     Request a Demo
-                  </button>
+                  </a>
                 </li>
               </ul>
             </div>
           </nav>
 
           <div class="cta-button z-3 d-none d-lg-flex">
-            <button class="btn btn-white px-4">Request a Demo</button>
+            <a href="demo.html" class="btn btn-white px-4">Request a Demo</a>
           </div>
         </div>
       </div>
     </header>
 
     <section class="section">
-      <div class="container-xxl p-4 p-sm-5">
+      <div class="container-xxl py-4">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-10">
             <div class="d-flex flex-column">
@@ -501,7 +498,7 @@
     </section>
 
     <footer class="text-white">
-      <div class="container py-5">
+      <div class="container-xxl py-5">
         <section class="row border-bottom pt-2 pb-4">
           <div class="col-12 col-md-4 footer-dropdown">
             <h5 class="text-muted d-none d-md-block">Get started</h5>
@@ -514,8 +511,8 @@
               </button>
             </div>
             <ul class="d-none d-md-flex flex-column gap-3">
-              <li><a href="#" class="text-muted">Sign in</a></li>
-              <li><a href="#" class="text-muted">Contact sales</a></li>
+              <li><a href="contact.html" class="text-muted">Contact sales</a></li>
+              <li><a href="demo.html" class="text-muted">Request a Demo</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-4 footer-dropdown">
@@ -529,9 +526,9 @@
               </button>
             </div>
             <ul class="d-none d-md-flex flex-column gap-3">
-              <li><a href="#" class="text-muted">Products</a></li>
-              <li><a href="#" class="text-muted">Pricing</a></li>
-              <li><a href="#" class="text-muted">Resources</a></li>
+              <li><a href="products.html" class="text-muted">Products</a></li>
+              <li><a href="pricing.html" class="text-muted">Pricing</a></li>
+              <li><a href="resources.html" class="text-muted">Resources</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-4 footer-dropdown">
@@ -545,9 +542,9 @@
               </button>
             </div>
             <ul class="d-none d-md-flex flex-column gap-3">
-              <li><a href="#" class="text-muted">FAQ</a></li>
-              <li><a href="#" class="text-muted">About Us</a></li>
-              <li><a href="#" class="text-muted">Career</a></li>
+              <li><a href="team.html" class="text-muted">About Us</a></li>
+              <li><a href="stories.html" class="text-muted">Success Stories</a></li>              
+              <li><a href="solutions.html" class="text-muted">Industry Solutions</a></li>
             </ul>
           </div>
         </section>
@@ -556,14 +553,14 @@
           class="d-flex justify-content-center align-items-center border-bottom pt-3 pb-3 mb-3"
         >
           <div class="d-flex gap-3">
-            <a href="#" class="text-muted">Terms and Conditions</a>
-            <a href="#" class="text-muted">Privacy Policy</a>
+            <a href="terms.html" class="text-muted">Terms and Conditions</a>
+            <a href="policy.html" class="text-muted">Privacy Policy</a>
           </div>
         </section>
 
         <div class="d-md-block text-muted">
           <div class="pt-3">
-            <span class="font-weight-bold d-md-none">Disclaimer:</span>
+            
             <p>
               The information provided on this website is for informational and
               discussion purposes only. It is not intended to constitute a
@@ -579,8 +576,10 @@
       </div>
     </footer>
 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/script.js"></script>
+        <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>
