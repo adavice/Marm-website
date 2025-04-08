@@ -347,7 +347,8 @@ header i{
 
 .card.card-grey .card-body img {
   width: 100%;
-  bottom: 0;
+  height: 210px;
+  border-radius: 0;
 }
 
 /*Section with company icons*/
