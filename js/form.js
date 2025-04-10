@@ -1,5 +1,5 @@
 
-/*$("#form").on("submit", function () {
+$("#form").on("submit", function () {
   var formData = {
     name: $("#name").val(),
     email: $("#email").val(),
@@ -32,15 +32,17 @@
       $("#form").prop("disabled", false);
     },
     error: function (XMLHttpRequest, textStatus, errorThrown) {
-      alert("Something is wrong.");
+      alert("Something is wrong");
       $("#form").prop("disabled", false);
     },
   });
   return false;
-});*/
+});
 
-$(document).ready(function () {
-  /*code for show how animation works*/
+/*code for show how animation works*/
+
+/*$(document).ready(function () {
+
   $("#form").on("submit", function (e) {
     e.preventDefault();
     const containerTop = $('.section').offset().top;
@@ -72,4 +74,4 @@ $(document).ready(function () {
       $(this).closest(".form-group").addClass("active");
     }
   });
-});
+});*/
