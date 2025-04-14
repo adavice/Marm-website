@@ -39,6 +39,25 @@ $("#form").on("submit", function () {
   return false;
 });
 
+$(".form-group input, .form-group textarea").on(
+  "focus input blur",
+  function () {
+    const $formGroup = $(this).closest(".form-group");
+
+    if ($(this).val() || $(this).is(":focus")) {
+      $formGroup.addClass("active");
+    } else {
+      $formGroup.removeClass("active");
+    }
+  }
+);
+
+$(".form-group input, .form-group textarea").each(function () {
+  if ($(this).val()) {
+    $(this).closest(".form-group").addClass("active");
+  }
+});
+
 /*code for show how animation works*/
 
 /*$(document).ready(function () {
