@@ -1,0 +1,19 @@
+                <li class="nav-item">
+                  <div class="custom-dropdown">
+                    <button
+                      class="nav-link btn d-flex align-items-center gap-2"
+                    >
+                      <span>Resources</span>
+                      <i
+                        class="fas fa-chevron-down transition-rotate arrow"
+                      ></i>
+                  </button>
+                    <div class="dropdown-menu" id="second-dropdown">
+                      <a class="dropdown-item" href="resources.html">All Resources</a>
+                      <a class="dropdown-item" href="#">Blog</a>
+                      <a class="dropdown-item" href="#">Webinars</a>
+                      <a class="dropdown-item" href="#">Whitepapers</a>
+                      <a class="dropdown-item" href="#">Case Studies</a>
+                    </div>
+                  </div>
+                </li>

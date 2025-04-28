@@ -223,19 +223,22 @@ header i{
 
 .nav-item {
   position: relative;
+ cursor: pointer;
+  color: var(--white-color);
+  padding: 0px 24px;
+  border-radius: 25px;
+  transition: var(--menu-transition);
 }
 
 .nav-link {
-  color: var(--white-color);
-  padding: 8px 24px;
-  border-radius: 25px;
-  transition: var(--menu-transition);
+
   width: 100%;
   justify-content: space-between;
 }
 
-.nav-link:hover,
-.nav-link:active,
+.nav-item:hover,
+.nav-item:active,
+.nav-item:focus,
 .custom-dropdown.active .nav-link {
   background: var(--white-color);
   color: var(--text-color-dark);
