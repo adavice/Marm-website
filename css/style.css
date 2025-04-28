@@ -231,7 +231,6 @@ header i{
 }
 
 .nav-link {
-
   width: 100%;
   justify-content: space-between;
 }
@@ -242,6 +241,12 @@ header i{
 .custom-dropdown.active .nav-link {
   background: var(--white-color);
   color: var(--text-color-dark);
+}
+
+.nav-item-btn:hover,
+.nav-item-btn:active,
+.nav-item-btn:focus{
+  background: transparent;
 }
 
 .custom-dropdown {
