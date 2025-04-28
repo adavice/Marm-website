@@ -243,12 +243,6 @@ header i{
   color: var(--text-color-dark);
 }
 
-.nav-item-btn:hover,
-.nav-item-btn:active,
-.nav-item-btn:focus{
-  background: transparent;
-}
-
 .custom-dropdown {
   position: relative;
 }
@@ -718,8 +712,7 @@ footer i{
     transform: rotate(180deg);
   }
 
-  .nav-item .btn {
-    display: flex;
+  .web-menu .btn {
     width: 100%;
   }
 
