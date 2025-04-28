@@ -712,7 +712,7 @@ footer i{
     transform: rotate(180deg);
   }
 
-  .web-menu .btn {
+  .web-menu .cta-button .btn {
     width: 100%;
   }
 
