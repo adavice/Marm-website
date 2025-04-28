@@ -109,9 +109,11 @@ li {
   background-color: var(--white-color);
 }
 
-.btn-white:hover,.btn-white:active,.btn-white:focus {
-  background-color: var(--main-header);
-  color: var(--text-color-dark);
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+  background-color: var(--main-header) !important;
+  color: var(--text-color-dark) !important;
 }
 
 .btn-dark {
@@ -119,9 +121,11 @@ li {
   color: var(--white-color);
 }
 
-.btn-dark:hover,.btn-dark:active,.btn-dark:focus {
-  background-color: var(--main-header);
-  color: var(--text-color-dark);
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+  background-color: var(--main-header) !important;
+  color: var(--text-color-dark) !important;
 }
 
 .btn-light {
@@ -129,9 +133,11 @@ li {
   color: var(--text-color-dark);
 }
 
-.btn-light:hover,.btn-light:active,.btn-light:focus {
-  background-color: var(--semi-dark-bg);
-  color: var(--white-color);
+.btn-light:hover,
+.btn-light:active,
+.btn-light:focus {
+  background-color: var(--semi-dark-bg) !important;
+  color: var(--white-color) !important;
 }
 
 /*header*/
@@ -139,7 +145,7 @@ header {
   padding: 5px 0;
 }
 
-header i{
+header i {
   font-size: 16px;
 }
 
@@ -223,7 +229,7 @@ header i{
 
 .nav-item {
   position: relative;
- cursor: pointer;
+  cursor: pointer;
   color: var(--white-color);
   padding: 0px 24px;
   border-radius: 25px;
@@ -263,7 +269,7 @@ header i{
   transition: var(--menu-transition);
 }
 
-.dropdown-menu a:active{
+.dropdown-menu a:active {
   color: inherit !important;
 }
 
@@ -296,7 +302,7 @@ header i{
   padding: 80px 0;
 }
 
-.section.hero-section{
+.section.hero-section {
   border-bottom: 3px solid var(--dark-bg);
 }
 
@@ -316,10 +322,10 @@ header i{
 
 .card {
   height: 100%;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.1);
 }
 
@@ -604,7 +610,7 @@ label.label-textarea {
   box-shadow: none !important;
 }
 
-.contact-section i{
+.contact-section i {
   font-size: 20px;
 }
 
@@ -621,9 +627,9 @@ footer a:hover {
   color: var(--blue-link) !important;
 }
 
-footer i{
+footer i {
   font-size: 20px;
-} 
+}
 
 @media (min-width: 992px) {
   .custom-dropdown:hover .dropdown-menu {
@@ -675,12 +681,15 @@ footer i{
     width: 100%;
   }
 
-  .nav-item:hover, .nav-item:focus,  .nav-item:active {
+  .nav-item:hover,
+  .nav-item:focus,
+  .nav-item:active {
     background: transparent;
     color: var(--white-color);
   }
 
   .nav-link {
+    width: 100% !important;
     padding: 12px 16px;
   }
 
@@ -717,11 +726,19 @@ footer i{
     transform: rotate(180deg);
   }
 
+  .web-menu .cta-button,
   .web-menu .cta-button .btn {
-    width: 240px;
+    width: 100%;
   }
 
-  .section-with-img .btn{
+  .web-menu .cta-button .btn:hover,
+  .web-menu .cta-button .btn:active,
+  .web-menu .cta-button .btn:focus {
+    background-color: var(--main-header);
+    color: var(--text-color-dark);
+  }
+
+  .section-with-img .btn {
     margin: auto;
   }
 }
@@ -859,7 +876,7 @@ footer i{
   h3 {
     font-size: 24px;
   }
-  
+
   h4 {
     font-size: 20px;
   }
